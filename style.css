@@ -39,3 +39,15 @@ a {
 li {
     font-style: italic;
 }
+
+#recipe_list li {
+    display: inline-block;
+    margin: 24px;
+}
+
+#recipe_list img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
