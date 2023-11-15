@@ -16,6 +16,7 @@ h1.recipe {
 h1.homepage {
     text-transform: uppercase;
     color: oldlace;
+    text-align: center;
 }
 
 a {
@@ -38,6 +39,11 @@ a {
 
 li {
     font-style: italic;
+}
+
+#recipe_list {
+    text-align: center;
+    padding: 0;
 }
 
 #recipe_list li {
