@@ -1,3 +1,5 @@
+/* All pages */
+
 body {
     font-family: "Monaco", 'Courier New', Courier, monospace;
     background-color: green;
@@ -8,21 +10,21 @@ h1 {
     font-weight: 900;
 }
 
-h1.recipe {
+li {
     font-style: italic;
-    color: tan;
-}
-
-h1.homepage {
-    text-transform: uppercase;
-    color: oldlace;
-    text-align: center;
 }
 
 a {
     font-style: italic;
     font-weight: bold;
     color: burlywood;
+}
+
+/* Recipes */
+
+h1.recipe {
+    font-style: italic;
+    color: tan;
 }
 
 .Description {
@@ -37,8 +39,12 @@ a {
     color: orange;
 }
 
-li {
-    font-style: italic;
+/* Homepage */
+
+h1.homepage {
+    text-transform: uppercase;
+    color: oldlace;
+    text-align: center;
 }
 
 #recipe_list {
