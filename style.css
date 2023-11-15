@@ -1,0 +1,41 @@
+body {
+    font-family: "Monaco", 'Courier New', Courier, monospace;
+    background-color: green;
+    color: white;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h1.recipe {
+    font-style: italic;
+    color: tan;
+}
+
+h1.homepage {
+    text-transform: uppercase;
+    color: oldlace;
+}
+
+a {
+    font-style: italic;
+    font-weight: bold;
+    color: burlywood;
+}
+
+.Description {
+    color: aqua;
+}
+
+.Ingredients {
+    color: orchid;
+}
+
+.Steps {
+    color: orange;
+}
+
+li {
+    font-style: italic;
+}
